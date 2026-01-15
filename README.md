@@ -33,7 +33,7 @@ O projeto de implementação foi dividido em 3 etapas estratégicas, focadas em 
 
 ---
 
-## 3. Resumo para o Diretor (Diferencial Competitivo)
+## 3. Resumo (Diferencial Competitivo)
 A arquitetura proposta adota o modelo **100% Serverless**. Isso significa que a empresa não terá custos fixos com servidores. Se não houver processamento de dados em um determinado dia, o custo operacional de computação será **zero**, garantindo que o orçamento de TI seja investido apenas onde há geração real de valor para a distribuição.
 
 ---
