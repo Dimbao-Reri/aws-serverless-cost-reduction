@@ -1,20 +1,22 @@
-# BL Seller Dashboard - Amazon Sales & Returns Analysis
+# AWS Serverless Data Architecture - Cost Reduction Implementation
 
-## Overview
-This dashboard analyzes sales data from BL, a small leather goods company selling on Amazon. In recent months, the business faced losses due to order returns. This analysis visualizes sales performance and return status to support data-driven decisions.
+![AWS](https://img.shields.io/badge/AWS-Serverless-orange?logo=amazon-aws)
 
-## Tools
-- Excel Online (dashboard)
-- Public sales & returns dataset
+## Company
+Abstergo Industries (fictional project for DIO Bootcamp)
 
-## Key Insights
-- **Total Revenue (2021)**: ₹ 89,177
-- **Peak Month**: December (₹ 34,150 — 38% of annual revenue)
-- **Return Rate**: 6.4% (11 out of 171 orders returned)
-- **Top Product Type**: Handbags & Shoulder Bags
+## Objective
+Design a 100% serverless AWS architecture to reduce immediate infrastructure costs, moving away from a traditional server-based model.
 
-## Dashboard Preview
-![Amazon Sales Dashboard](dashboard_screenshot.png)
+## Architecture
 
-## Dataset
-- [amazon_data.xlsx](./amazon_data.xlsx) — Sales transactions and return records (Excel file)
+| Layer | AWS Service | Purpose |
+|-------|-------------|---------|
+| **Storage** | Amazon S3 (Intelligent-Tiering) | Scalable, cost-effective data lake |
+| **Catalog & ETL** | AWS Glue | Serverless data preparation and cataloging |
+| **Analytics** | Amazon Athena | SQL-based business intelligence directly on S3 data |
+
+## Key Outcomes
+- **Zero Fixed Server Costs**: Computation is billed only per query or job execution.
+- **Security**: AES-256 encryption at rest and IAM for granular access control.
+- **Compliance**: Full alignment with LGPD (Brazilian General Data Protection Law) requirements.
