@@ -17,4 +17,4 @@ This dashboard analyzes sales data from BL, a small leather goods company sellin
 ![Amazon Sales Dashboard](dashboard_screenshot.png)
 
 ## Dataset
-- `amazon_data.xlsx`: Sales transactions and return records
+- [amazon_data.xlsx](./amazon_data.xlsx) — Sales transactions and return records (Excel file)
