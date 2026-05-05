@@ -8,12 +8,13 @@ This dashboard analyzes sales data from BL, a small leather goods company sellin
 - Public sales & returns dataset
 
 ## Key Insights
-- Sales volume by product category
-- Return rate and its financial impact
-- Monthly sales trends
+- **Total Revenue (2021)**: ₹ 89,177
+- **Peak Month**: December (₹ 34,150 — 38% of annual revenue)
+- **Return Rate**: 6.4% (11 out of 171 orders returned)
+- **Top Product Type**: Handbags & Shoulder Bags
 
 ## Dashboard Preview
-[Add a screenshot or link to interactive dashboard]
+![Amazon Sales Dashboard](dashboard_screenshot.png)
 
 ## Dataset
 - `amazon_data.xlsx`: Sales transactions and return records
